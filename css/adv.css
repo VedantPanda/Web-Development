@@ -1,0 +1,17 @@
+nav a{
+    color:blue;
+    background-color: black;
+}
+.Current{
+    color:aqua;
+    background-color: darkgray;
+}
+a[href$=".org"]{
+    background-color: black;
+}
+a[href$=".edu"]{
+    background-color: red;
+}
+a[href$=".gov"]{
+    background-color: chocolate;
+}

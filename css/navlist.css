@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(172, 170, 170);
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    width:200px;
+}
+nav li:hover ul{
+    display: block;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    transition: background-color 0.5s;
+}
+nav a:hover{
+    background-color: green;
+}
+nav li{
+    display: inline-block;
+    width: 240px;
+    border-right:1px solid black;
+    line-height: 50px;
+    height: 50px;
+    font-size: 140%;
+}
+nav li:last-child{
+    border-right: none;
+}
+nav ul{
+    text-align: center;
+    background-color: gray;
+} 
+li li{
+    border-right: none;
+    text-align: left;
+}

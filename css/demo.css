@@ -1,0 +1,12 @@
+button{
+    background-color: aqua;
+    width: 10%;
+    margin: 10px;
+}
+#test{
+    background-color: gray;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 120%;
+}
